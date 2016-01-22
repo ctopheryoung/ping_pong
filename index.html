@@ -10,26 +10,36 @@
     <div class="heading">
       <h1>Ping-Pong</h1>
     </div>
-
+    <div class="sideBar">
+      <h2>About Ping Pong</h2>
+      <h3>Created By:</h3>
+      <p>Chris Young</p>
+      <h3>Github Username/Link:</h3>
+      <p><a href="https://github.com/ctopheryoung" target="_blank">c.topher</a></p>
+      <h3>Project For:</h3>
+      <p>Epicodus Week 3</p>
+    </div>
+    <div id="introductionArea">
       <h2>Let's Play!</h2>
-
       <h3>Rules:</h3>
-        <ol>
+      <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
+        <ol class ="listy">
           <li>Numbers divisible by 3 become "ping"</li>
           <li>Numbers divisible by 5 becaome "pong"</li>
-          <li>Number divisivle by 3 and 5 become "pingpong"</li>
+          <li>Number divisible by 3 and 5 become "pingpong"</li>
         </ol>
-
+    </div>
+    <div class="formArea">
       <form id="userInput">
-        <div class="form-group">
+        <div>
           <label for="countTo"><strong>Enter your number here:</strong></label>
           <input type="text" class="form-control" id="countTo">
         </div>
-
+    </div>
         <button type="submit">Ping pong!</button>
       </form>
-
+    <div id="returnArea">
       <ul id="itemList"></ul>
-
+    </div>
   </body>
 </html>

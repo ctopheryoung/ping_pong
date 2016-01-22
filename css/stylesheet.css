@@ -1,5 +1,6 @@
 body {
   font-family: sans-serif;
+  background-color: #E6E6E6;
 }
 
 .heading {
@@ -16,4 +17,61 @@ body {
   font-size: 70px;
   font-weight: 500;
   padding-top: 70px;
+}
+
+#userInput {
+  float: left;
+}
+
+button {
+  padding: 8px;
+  font-size: 16px;
+  margin-left: 8px;
+  margin-top: -2px;
+}
+
+#countTo {
+  padding: 4px;
+  font-size:  15px;
+}
+
+.sideBar {
+  float: left;
+  background-color: #90BB90;
+  width: 270px;
+  height: auto;
+  margin-left: -8px;
+  padding-left: 12px;
+  height: 500px;
+  margin-top: 40px;
+}
+
+.sideBar h3 {
+  color: #F4DEB5;
+}
+
+.sideBar p {
+  color: #fff;
+}
+
+ol {
+  margin-left: 0px;
+  padding-left: 60px;
+}
+
+#introductionArea {
+  margin-left: 320px;
+  margin-top: 80px;
+}
+
+#introductionArea h2 {
+  font-size: 36px;
+}
+
+.formArea {
+  margin-left: 320px;
+}
+
+#returnArea {
+  margin-left: 300px;
 }
