@@ -14,7 +14,7 @@ var pingPong = function(input) {
   return output;
 };
 
-function write_letters(numberOutput){
+function writeList(numberOutput){
     var items = document.getElementById("itemList");
     for (var i = 0; i < numberOutput.length; i++ ) {
         var item = document.createElement("li");
@@ -29,8 +29,9 @@ $(document).ready(function() {
   $("form#userInput").submit(function(event) {
     var input = parseInt($("input#countTo").val());
     var numberOutput = pingPong(input);
+    writeList(numberOutput);
 
-    $(".finalResult").text(numberOutput);
+
 
     event.preventDefault();
   });
