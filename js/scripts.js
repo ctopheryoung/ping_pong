@@ -1,5 +1,6 @@
 var pingPong = function(input) {
   var output = [];
+
   for (var i = 1; i<= input; i++) {
     if (i % 3 === 0) {
       output.push("ping");
@@ -7,5 +8,6 @@ var pingPong = function(input) {
       output.push(i);
     }
   };
+
   return output;
 };
