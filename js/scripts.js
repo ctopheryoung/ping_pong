@@ -16,6 +16,7 @@ var pingPong = function(input) {
 
 function writeList(numberOutput){
     var items = document.getElementById("itemList");
+      items.innerHTML = "";
     for (var i = 0; i < numberOutput.length; i++ ) {
         var item = document.createElement("li");
         item.innerHTML = numberOutput[i];
