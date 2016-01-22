@@ -26,7 +26,6 @@ function writeList(numberOutput){
 };
 
 $(document).ready(function() {
-  debugger;
   $("form#userInput").submit(function(event) {
     var input = parseInt($("input#countTo").val());
     var numberOutput = pingPong(input);
