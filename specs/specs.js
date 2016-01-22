@@ -4,4 +4,8 @@ describe ("pingPong", function(){
     expect(pingPong(2)).to.eql([1, 2])
   });
 
+  it("replaces multiples of 3 with 'ping'", function () {
+    expect(pingPong(4)).to.eql([1, 2, "ping", 4])
+  });
+
 });
