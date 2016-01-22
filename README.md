@@ -13,7 +13,7 @@ This app accepts a number input by the user and counts to that number (1, 2, 3,.
 * Will count from one to the number input by the user
 * Will print "ping" instead of any number that is evenly divisible by 5
 * Will print "pong' instead of any number that is evenly divisible by 5
-* Will print "pingpong" instead of any number that is evenly divisible by both 3 and 5
+* Will print "pingpong" instead of any number that is evenly divisible by 15
 
 ## Support and contact details
 Chris Young
